@@ -11,4 +11,6 @@ LINEAGE_DISPLAY_VERSION := ColtOS_Nougat-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERS
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.colt.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
   ro.modversion=$(LINEAGE_VERSION) \
-  ro.colt.display.version=$(LINEAGE_VERSION)
+  ro.colt.display.version=$(LINEAGE_VERSION) \
+  ro.substratum.verified=true \
+  ro.opa.eligible_device=true
