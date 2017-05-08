@@ -121,6 +121,7 @@ PRODUCT_PACKAGES += \
     CustomTiles \
     Eleven \
     ExactCalculator \
+    ColtSetupWizard \
     Jelly \
     LiveLockScreenService \
     LockClock \
