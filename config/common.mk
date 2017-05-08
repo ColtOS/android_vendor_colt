@@ -1,5 +1,9 @@
 PRODUCT_BRAND ?= ColtOS
 
+# BootAnimation
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
@@ -88,10 +92,6 @@ ifneq ($(TARGET_DISABLE_CMSDK), true)
 # CMSDK
 include vendor/cm/config/cmsdk_common.mk
 endif
-
-# Bootanimation
-PRODUCT_PACKAGES += \
-    bootanimation.zip
 
 # Required CM packages
 PRODUCT_PACKAGES += \
