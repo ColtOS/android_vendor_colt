@@ -14,3 +14,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
   ro.colt.display.version=$(LINEAGE_VERSION) \
   ro.substratum.verified=true \
   ro.opa.eligible_device=true
+
+# DUI
+PRODUCT_PACKAGES += \
+    org.dirtyunicorns.utils
+
+
+
+
+PRODUCT_BOOT_JARS += \
+    org.dirtyunicorns.utils
