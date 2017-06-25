@@ -15,12 +15,17 @@ PRODUCT_PROPERTY_OVERRIDES += \
   ro.substratum.verified=true \
   ro.opa.eligible_device=true
 
-# DUI
+# Things used in ColtOS
+
+# From Omni : Thanks to OmniROM
+PRODUCT_PACKAGES += \
+OmniStyle
+
+
+# DUI : Thanks Dirty Unicorn Team
 PRODUCT_PACKAGES += \
     org.dirtyunicorns.utils
 
-
-
-
+# DUI :  Boot Jars
 PRODUCT_BOOT_JARS += \
     org.dirtyunicorns.utils
