@@ -18,9 +18,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # DUI
 PRODUCT_PACKAGES += \
     org.dirtyunicorns.utils
-
-
-
+    
+#Colt Wallpapers
+PRODUCT_PACKAGES += \
+    ColtWallpapers
 
 PRODUCT_BOOT_JARS += \
     org.dirtyunicorns.utils
