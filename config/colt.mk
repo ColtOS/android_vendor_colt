@@ -21,10 +21,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
 OmniStyle
 
-
 # DUI : Thanks Dirty Unicorn Team
 PRODUCT_PACKAGES += \
     org.dirtyunicorns.utils
+
+#Colt Wallpapers
+PRODUCT_PACKAGES += \
+    ColtWallpapers
 
 # DUI :  Boot Jars
 PRODUCT_BOOT_JARS += \
