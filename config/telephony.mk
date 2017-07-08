@@ -14,4 +14,4 @@ PRODUCT_PACKAGES += \
 
 # Default ringtone
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.ringtone=ColtDarkParadise.ogg
+    ro.config.ringtone=DarkParadise.ogg
