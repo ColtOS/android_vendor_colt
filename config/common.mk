@@ -59,6 +59,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bin/sysinit:system/bin/sysinit
 
+# add lawnchair
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/app/Lawnchair.apk:system/priv-app/Lawnchair/Lawnchair.apk
+
 ifneq ($(TARGET_BUILD_VARIANT),user)
 # userinit support
 PRODUCT_COPY_FILES += \
