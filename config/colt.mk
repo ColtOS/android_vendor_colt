@@ -19,8 +19,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # From Omni : Thanks to OmniROM
 PRODUCT_PACKAGES += \
-OmniStyle
-OmniJaws \
+OmniStyle \
+OmniJaws
 
 # DUI : Thanks Dirty Unicorn Team
 PRODUCT_PACKAGES += \
