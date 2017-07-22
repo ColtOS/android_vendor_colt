@@ -28,7 +28,7 @@ PRODUCT_PACKAGES += \
 
 #Colt Wallpapers
 PRODUCT_PACKAGES += \
-    ColtWallpapers
+    ColtPapers
 
 # DUI :  Boot Jars
 PRODUCT_BOOT_JARS += \
