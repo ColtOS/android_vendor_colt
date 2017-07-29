@@ -21,8 +21,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
 OmniStyle \
 OmniJaws \
-SnapdragonGallery \
-SnapdragonCamera
+SnapdragonGallery
 
 # DUI : Thanks Dirty Unicorn Team
 PRODUCT_PACKAGES += \
