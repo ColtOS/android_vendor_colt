@@ -30,6 +30,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ColtPapers
 
+#Colt Apps
+PRODUCT_PACKAGES += \
+    ViaBrowser
+
 # DUI :  Boot Jars
 PRODUCT_BOOT_JARS += \
     org.dirtyunicorns.utils
