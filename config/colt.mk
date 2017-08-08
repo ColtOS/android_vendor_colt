@@ -19,6 +19,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # From Omni : Thanks to OmniROM
 PRODUCT_PACKAGES += \
+OmniSwitch \
 OmniStyle \
 OmniJaws
 
