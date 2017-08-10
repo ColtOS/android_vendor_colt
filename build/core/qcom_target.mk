@@ -51,6 +51,9 @@ ifeq ($(BOARD_USES_QCOM_HARDWARE),true)
         endif
     endif
 
+    # Allow building audio encoders
+    TARGET_USES_QCOM_MM_AUDIO := true
+
     # Enable extra offloading for post-805 targets
     ifneq ($(filter msm8992 msm8994,$(TARGET_BOARD_PLATFORM)),)
         qcom_flags += -DHAS_EXTRA_FLAC_METADATA
@@ -98,9 +101,9 @@ ifeq ($(BOARD_USES_QCOM_HARDWARE),true)
     endif
     endif
 
-$(call project-set-path,qcom-audio,hardware/qcom/audio-caf/$(QCOM_HARDWARE_VARIANT))
-$(call project-set-path,qcom-display,hardware/qcom/display-caf/$(QCOM_HARDWARE_VARIANT))
-$(call project-set-path,qcom-media,hardware/qcom/media-caf/$(QCOM_HARDWARE_VARIANT))
+$(call set-device-specific-path,AUDIO,audio,hardware/qcom/audio-caf/$(QCOM_HARDWARE_VARIANT))
+$(call set-device-specific-path,DISPLAY,display,hardware/qcom/display-caf/$(QCOM_HARDWARE_VARIANT))
+$(call set-device-specific-path,MEDIA,media,hardware/qcom/media-caf/$(QCOM_HARDWARE_VARIANT))
 
 $(call set-device-specific-path,CAMERA,camera,hardware/qcom/camera)
 $(call set-device-specific-path,GPS,gps,hardware/qcom/gps)
