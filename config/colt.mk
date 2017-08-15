@@ -19,9 +19,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # From Omni : Thanks to OmniROM
 PRODUCT_PACKAGES += \
-OmniSwitch \
-OmniStyle \
-OmniJaws
+  OmniSwitch \
+  OmniStyle \
+  OmniJaws
 
 # DUI : Thanks Dirty Unicorn Team
 PRODUCT_PACKAGES += \
@@ -38,3 +38,7 @@ PRODUCT_PACKAGES += \
 # DUI :  Boot Jars
 PRODUCT_BOOT_JARS += \
     org.dirtyunicorns.utils
+
+# Build sound recorder
+PRODUCT_PACKAGES += \
+    SoundRecorder
