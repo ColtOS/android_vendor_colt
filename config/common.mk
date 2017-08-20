@@ -128,7 +128,6 @@ PRODUCT_PACKAGES += \
     ExactCalculator \
     ColtSetupWizard \
     Jelly \
-    LiveLockScreenService \
     LockClock \
     ThemeInterfacer \
     Trebuchet \
