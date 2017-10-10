@@ -63,6 +63,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/app/Lawnchair.apk:system/priv-app/Lawnchair/Lawnchair.apk
 
+# DeskClock
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/DeskClock/DeskClock.apk:system/app/DeskClock/DeskClock.apk
+
 ifneq ($(TARGET_BUILD_VARIANT),user)
 # userinit support
 PRODUCT_COPY_FILES += \
