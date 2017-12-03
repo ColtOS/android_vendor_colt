@@ -33,7 +33,8 @@ PRODUCT_PACKAGES += \
 
 #Colt Apps
 PRODUCT_PACKAGES += \
-    ViaBrowser
+    ViaBrowser \
+    Recorder
 
 # DUI :  Boot Jars
 PRODUCT_BOOT_JARS += \
